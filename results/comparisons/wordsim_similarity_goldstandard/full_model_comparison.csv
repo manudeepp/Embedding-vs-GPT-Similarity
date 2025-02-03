@@ -1,0 +1,132 @@
+Input_Text,Algorithm_Match_Embedding,Similarity_Score_Embedding,Algorithm_Match_Hybrid,Similarity_Score_Hybrid,Reasoning,Algorithm_Match_GPT,Reasoning_GPT,Match_Agreement_Hybrid_vs_GPT,Match_Agreement_Embedding_vs_GPT,Match_Agreement_Embedding_vs_Hybrid,Similarity_Score_Deviation_Hybrid_vs_Embedding
+Arafat,rabbi,4.001459220989995,rabbi,4.001459220989995,"rabbi (Score: 4.00) - Closest phonetic similarity to ""Arafat.""",hill,Mount Arafat is a significant elevated location.,False,False,True,0.0
+Harvard,Yale,6.512131144984314,Yale,6.512131144984314,Yale (Score: 6.51) - Both are prestigious universities.,Yale,Similar prestigious American university as Harvard.,True,True,True,0.0
+Japanese,yen,4.710277437838207,yen,4.710277437838207,yen (Score: 4.71) - Directly relates to Japanese currency.,yen,Official Japanese currency used in economic transactions.,True,True,True,0.0
+Mars,moon,3.9658099327672343,moon,3.9658099327672343,moon (Score: 3.97) - Closest association with Mars.,star,Both are celestial objects in the universe.,False,False,True,0.0
+Mexico,Brazil,4.613502370183566,nation,3.405461848518097,nation (Score: 3.41) - Mexico is a nation.,nation,Mexico is a sovereign country.,True,False,False,1.208040521665469
+Wednesday,month,4.9004692683377655,month,4.9004692683377655,"month (Score: 4.90) - ""Wednesday"" relates to days of the week.",entity,Wednesday represents a day of the week.,False,False,True,0.0
+aluminum,metal,5.003240435910829,metal,5.003240435910829,metal (Score: 5.00) - Aluminum is a type of metal.,metal,Aluminum is a type of metal.,True,True,True,0.0
+announcement,warning,5.562305411762597,news,4.549612131219901,news (Score: 4.55) - Closely relates to public announcements.,news,"Shares public information, similar to an announcement.",True,False,False,1.0126932805426954
+architecture,landscape,5.507807568641596,landscape,5.507807568641596,landscape (Score: 5.51) - Closely related to architectural design.,infrastructure,Related to building structures and physical systems.,False,False,True,0.0
+asylum,isolation,4.875179299303667,isolation,4.875179299303667,isolation (Score: 4.88) – Best relates to asylum's meaning.,madhouse,"A place for mental patients, similar to asylum.",False,False,True,0.0
+atmosphere,culture,3.8534635551512935,culture,3.8534635551512935,culture (Score: 3.85) - Closest relation to social atmosphere.,culture,Represents the prevailing atmosphere or environment.,True,True,True,0.0
+attempt,effort,5.598145569695515,effort,5.598145569695515,"effort (Score: 5.60) - Closest synonym to ""attempt.""",effort,Similar meaning to 'attempt'.,True,True,True,0.0
+benchmark,index,4.861079075286366,index,4.861079075286366,index (Score: 4.86) - Closely relates to measuring and evaluating performance.,example,Provides a standard against which to compare,False,False,True,0.0
+bird,animal,6.164617471677127,animal,6.164617471677127,animal (Score: 6.16) - Broad category for birds.,crane,A specific type of bird similar to 'bird'.,False,False,True,0.0
+bishop,doctor,4.556126916814398,queen,4.486377952865589,queen (Score: 4.49) - Both are chess pieces.,rook,Similar chess piece.,False,False,False,0.06974896394880847
+board,car,5.633510258578873,match,4.660855070813313,match (Score: 4.66) - Closest in meaning related to games.,match,Relates to board games and competitions.,True,False,False,0.97265518776556
+boy,girl,6.948076817433012,girl,6.948076817433012,"girl (Score: 6.95) - Closest opposite gender term related to ""boy.""",lad,A direct synonym and closely related term.,False,False,True,0.0
+bread,food,5.521655647783648,food,5.521655647783648,food (Score: 5.52) - Bread is a staple food item.,cash,slang for money similar to 'bread'.,False,False,True,0.0
+calculation,computation,6.615020544398526,computation,6.615020544398526,"computation (Score: 6.62) - Closest synonym to ""calculation.""",computation,"Similar to calculation, performing mathematical operations.",True,True,True,0.0
+car,automobile,5.562367369910138,automobile,5.562367369910138,"automobile (Score: 5.56) - Direct synonym for ""car.""",automobile,Synonymous term for car.,True,True,True,0.0
+cell,entity,5.053249787553162,entity,5.053249787553162,entity (Score: 5.05) - 'Cell' relates to biological entities.,phone,Short form for 'cell phone'.,False,False,True,0.0
+cemetery,graveyard,7.504309972755644,graveyard,7.504309972755644,graveyard (Score: 7.50) - Closest meaning related to burial grounds.,graveyard,Synonymous place for burial and remembrance.,True,True,True,0.0
+century,year,4.281023071227105,year,4.281023071227105,year (Score: 4.28) - Century directly relates to years.,year,Represents a unit of time related to century.,True,True,True,0.0
+championship,tournament,4.811420487949961,tournament,4.811420487949961,tournament (Score: 4.81) - Closely related to championship events.,tournament,Synonymous with competition or championship events.,True,True,True,0.0
+chance,confidence,4.47020853253502,confidence,4.47020853253502,confidence - Both relate to opportunities and risk assessment.,match,Relates to probability or possible outcomes.,False,False,True,0.0
+chord,music,4.318606487296464,music,4.318606487296464,music (Score: 4.32) - Chord is a fundamental music concept.,music,A harmonic element in musical compositions.,True,True,True,0.0
+coast,shore,4.922564397893425,shore,4.922564397893425,"shore (Score: 4.92) - Closest synonym to ""coast.""",shore,Area where land meets the sea.,True,True,True,0.0
+computer,phone,4.9218023481726725,computation,4.355392461891302,computation (Score: 4.36) - Closely related to computer functions.,computation,Essential function related to computer operations.,True,False,False,0.5664098862813702
+consumer,woman,5.4219111469313,student,5.062865387396272,student (Score: 5.06) - Both are terms for individuals.,payment,Involved in consumer transactions.,False,False,False,0.3590457595350278
+crane,car,4.033967049254149,car,4.033967049254149,"car (Score: 4.03) - Most phonetic similarity with ""crane.""",fauna,"Crane is a type of bird, part of fauna.",False,False,True,0.0
+cucumber,cabbage,5.925077499847218,cabbage,5.925077499847218,cabbage (Score: 5.93) - Closely related vegetable category.,fruit,Cucumber is classified as a type of fruit.,False,False,True,0.0
+cup,cock,6.587776055805273,cock,6.587776055805273,"cock (Score: 6.59) - Closest phonetic similarity to ""cup"".",tableware,Cup is a type of tableware.,False,False,True,0.0
+delay,block,5.3813594793365525,block,5.3813594793365525,"block (Score: 5.38) - Closest relation to ""delay"" contextually.",project,"Common phrase ""project delay"".",False,False,True,0.0
+deployment,operation,6.0240455844732175,operation,6.0240455844732175,operation (Score: 6.02) - Closely linked to deployment activities.,operation,Closely related to the act of deploying resources.,True,True,True,0.0
+development,production,6.098410664836407,production,6.098410664836407,production (Score: 6.10) - Closely related to development processes.,project,Closely related to development activities.,False,False,True,0.0
+direction,center,4.683207320262479,center,4.683207320262479,center (Score: 4.68) - Most related to direction contextually.,avenue,A type of street signifying direction.,False,False,True,0.0
+dividend,dollar,4.1686282299447655,payment,3.996704010229377,payment (Score: 4.00) - Dividends are payments to shareholders.,cash,Financial distribution paid to shareholders.,False,False,False,0.1719242197153883
+doctor,nurse,4.924696579382616,nurse,4.924696579382616,nurse (Score: 4.92) - Closely related healthcare profession.,nurse,Nurses work closely with doctors in healthcare settings.,True,True,True,0.0
+dollar,currency,5.240526149936713,currency,5.240526149936713,currency (Score: 5.24) - Most relevant definition of dollar.,buck,Informal synonym commonly used for dollar.,False,False,True,0.0
+drink,wine,5.61385691979919,wine,5.61385691979919,"wine (Score: 5.61) - Most closely related to ""drink.""",Wine,A type of alcoholic beverage similar to drink.,False,False,True,0.0
+energy,water,4.977523234291815,water,4.977523234291815,water (Score: 4.98) - Closely related to energy sources.,sun,Primary natural source of energy.,False,False,True,0.0
+experience,performance,5.821227187742179,performance,5.821227187742179,performance (Score: 5.82) - Closely related to experience in context.,life,Life encompasses personal experiences and events.,False,False,True,0.0
+five,series,4.424901136788982,series,4.424901136788982,"series (Score: 4.42) - ""Five"" commonly refers to a series quantity.",dollar,Five relates to the dollar currency.,False,False,True,0.0
+focus,center,5.585771469853622,center,5.585771469853622,"center (Score: 5.59) - Most directly related to ""focus"".",center,Central point of attention or activity.,True,True,True,0.0
+food,eat,5.681448341483483,eat,5.681448341483483,eat (Score: 5.68) - Directly related to food consumption.,fruit,A type of food item.,False,False,True,0.0
+football,soccer,5.940895587914135,soccer,5.940895587914135,soccer (Score: 5.94) - Direct synonym for football.,soccer,Similar sport involving kicking a ball.,True,True,True,0.0
+forest,woodland,5.998412412555789,woodland,5.998412412555789,woodland (Score: 6.00) - Closest synonym related to forest.,woodland,Similar meaning as a type of forest.,True,True,True,0.0
+fuck,girl,4.990348019282078,sex,4.873252570820334,sex (Score: 4.87) - Closest association with the input term.,stupid,Profane term expressing frustration or emphasis.,False,False,False,0.11709544846174413
+furnace,stove,6.503439850962717,stove,6.503439850962717,stove (Score: 6.50) - Both are heat-generating appliances.,stove,Similar heating appliance used for cooking or warmth.,True,True,True,0.0
+gem,jewel,5.574438951168657,jewel,5.574438951168657,"jewel (Score: 5.57) - Closely related meaning to ""gem.""",jewel,Similar meaning as a precious stone.,True,True,True,0.0
+glass,wine,4.925955971228695,wine,4.925955971228695,wine (Score: 4.93) - Most related to glass usage.,tableware,Material used for dining and serving purposes.,False,False,True,0.0
+governor,secretary,5.104741990381262,secretary,5.104741990381262,secretary (Score: 5.10) - Closest in leadership role context.,professor,Leadership role similar to governor.,False,False,True,0.0
+holy,kind,4.235235348035019,kind,4.235235348035019,"kind (Score: 4.24) - ""Holy"" relates to kindness and goodness.",oracle,Associated with sacred prophecy and spirituality.,False,False,True,0.0
+hospital,hotel,6.555904651411892,doctor,5.351338143939386,doctor (Score: 5.35) - Closely related to hospital services.,nurse,Essential role within hospital setting.,False,False,False,1.2045665074725065
+image,entity,4.76004321033119,entity,4.76004321033119,entity (Score: 4.76) - Best matches the concept of 'image' directly.,object,Visual representation similar to an image.,False,False,True,0.0
+investigation,interview,5.043673732580145,interview,5.043673732580145,interview (Score: 5.04) - Closely related to gathering information in investigations.,science,Related to systematic investigation.,False,False,True,0.0
+jaguar,tiger,5.732077099441407,tiger,5.732077099441407,tiger (Score: 5.73) - Both are big cats.,feline,large wild cat species.,False,False,True,0.0
+journal,article,5.414950450520396,article,5.414950450520396,article (Score: 5.41) - Journals publish articles on various topics.,article,Written piece typically published in a journal.,True,True,True,0.0
+journey,voyage,6.5315852795689455,voyage,6.5315852795689455,voyage (Score: 6.53) - Closely related to travel and exploration.,voyage,"Synonym, similar meaning to journey.",True,True,True,0.0
+king,queen,5.906015302396908,queen,5.906015302396908,"queen (Score: 5.91) - Most closely related to ""king.""",tiger,Often referred to as the king of the jungle.,False,False,True,0.0
+lad,car,5.021330695494248,car,5.021330695494248,car (Score: 5.02) - Closest phonetic match conceptually.,rooster,"Male bird, similar to 'lad' as a young male.",False,False,True,0.0
+life,live,6.9390174756927685,live,6.9390174756927685,live (Score: 6.94) - Closely related to the concept of life.,organism,Represents living entities within a biological context.,False,False,True,0.0
+line,series,5.701117283846106,series,5.701117283846106,"series (Score: 5.70) - Closest conceptual relation to ""line"".",phone,"""Line"" often refers to a telephone connection.",False,False,True,0.0
+liquid,water,5.715687194363532,water,5.715687194363532,water (Score: 5.72) - Most closely associated with 'liquid'.,water,"Essential liquid, most common association.",True,True,True,0.0
+listing,activity,5.191763616798606,activity,5.191763616798606,activity (Score: 5.19) - Closest relation to 'listing' concept.,series,A sequence or list of related items.,False,False,True,0.0
+lobster,lad,4.101737818580568,butter,4.064300944164653,butter (Score: 4.06) - Common culinary pairing with lobster.,animal,"Lobster is a marine crustacean, part of the animal kingdom.",False,False,False,0.03743687441591437
+magician,wizard,5.6745218611206205,wizard,5.6745218611206205,wizard (Score: 5.67) - Closely related to magic and illusion.,wizard,"similar to magician, magical practitioner.",True,True,True,0.0
+man,woman,7.075252418020826,woman,7.075252418020826,"woman (Score: 7.08) - Closest gender counterpart to ""man"".",lad,Similar to a young man.,False,False,True,0.0
+marathon,kilometer,4.294670748218427,kilometer,4.294670748218427,kilometer (Score: 4.29) - Directly related to marathon distance.,sprint,Another running event similar to marathon.,False,False,True,0.0
+media,information,4.849855936041046,information,4.849855936041046,"information (Score: 4.85) - Most closely relates to ""media"" overall.",radio,Direct form of mass communication medium.,False,False,True,0.0
+midday,noon,5.888237639222885,noon,5.888237639222885,"noon (Score: 5.89) - Most closely related to ""midday"".",noon,Represents the middle of the day.,True,True,True,0.0
+mile,month,5.494572226713325,kilometer,5.097938081737023,kilometer (Score: 5.10) - Closely related unit of distance.,kilometer,Both are units of measuring distance.,True,False,False,0.39663414497630267
+ministry,secretary,4.652765721911459,secretary,4.652765721911459,secretary (Score: 4.65) - Most directly related to ministry.,institution,A governmental or organizational body.,False,False,True,0.0
+minority,racism,4.055212015736806,racism,4.055212015736806,racism (Score: 4.06) - Closely related to minority contexts.,group,Represents a smaller subset within population.,False,False,True,0.0
+money,cash,6.238794111100257,cash,6.238794111100257,cash (Score: 6.24) - It directly represents money.,cash,Synonym for money.,True,True,True,0.0
+monk,rabbi,4.428632996795728,rabbi,4.428632996795728,rabbi (Score: 4.43) - Both are religious leaders.,rabbi,Similar religious leadership role.,True,True,True,0.0
+month,year,6.469808153754344,year,6.469808153754344,year (Score: 6.47) - Both are time measurement units.,year,Another unit of time similar to month.,True,True,True,0.0
+morality,culture,4.24378239072453,culture,4.24378239072453,culture (Score: 4.24) - Morality is deeply tied to cultural values.,culture,Morality is a key aspect of a culture.,True,True,True,0.0
+murder,manslaughter,7.756935476037658,manslaughter,7.756935476037658,manslaughter (Score: 7.76) - Closest legal term related to murder.,manslaughter,Related unlawful killing similar to murder.,True,True,True,0.0
+museum,theater,4.417124376988822,institution,3.864924591859764,institution (Score: 3.86) - A museum is an educational institution.,institution,Similar place where collections are kept.,True,False,False,0.5521997851290577
+music,jazz,4.96880882981836,jazz,4.96880882981836,jazz - Closest genre directly related to music.,jazz,A genre closely related to music.,True,True,True,0.0
+noon,moon,5.000445954300687,moon,5.000445954300687,moon (Score: 5.00) - Closest phonetic and letter match.,moon,"Similar sound to ""noon"".",True,True,True,0.0
+observation,object,5.2960921463297055,object,5.2960921463297055,"object (Score: 5.30) - Closest semantic match to ""observation"".",information,Observation provides essential data for analysis.,False,False,True,0.0
+opera,theater,5.4085448539746,theater,5.4085448539746,theater (Score: 5.41) - Closely related to opera performance.,theater,Related to performing arts and stage productions.,True,True,True,0.0
+peace,confidence,4.589399037672509,confidence,4.589399037672509,confidence (Score: 4.59) - Reflects inner peace and assurance.,atmosphere,Represents the mood or feeling.,False,False,True,0.0
+phone,car,5.057454969995259,radio,4.560227507316871,radio (Score: 4.56) - Both are communication devices.,radio,Closely related communication device.,True,False,False,0.4972274626783877
+physics,science,5.852548733751419,science,5.852548733751419,science (Score: 5.85) - Physics is a branch of science.,science,Physics is a branch within the broader field of science.,True,True,True,0.0
+plane,flight,5.6934622743691135,flight,5.6934622743691135,"flight (Score: 5.69) - Closest association with ""plane.""",flight,Related to plane's movement in the air.,True,True,True,0.0
+planet,forest,4.948178037060848,moon,4.766486393357071,moon (Score: 4.77) - Closest celestial body relation.,star,Similar celestial body in the astronomical context.,False,False,False,0.18169164370377722
+population,production,5.7218054276552985,nation,5.244618786149584,nation (Score: 5.24) - Closely related to population context.,fauna,Represents groups of animals in a specific region.,False,False,False,0.4771866415057149
+possibility,recommendation,4.539576834931181,recommendation,4.539576834931181,recommendation (Score: 4.54) - Most related to possibility.,match,Represents a potential outcome or possibility.,False,False,True,0.0
+practice,performance,5.729327065854416,activity,5.706927051870525,activity (Score: 5.71) - Closely relates to practice and engagement.,discipline,Closely related to a field of study.,False,False,False,0.022400013983890688
+precedent,antecedent,8.12289076469023,antecedent,8.12289076469023,antecedent (Score: 8.12) - Closely related in meaning and usage context.,example,Serves as a previous instance or model.,False,False,True,0.0
+prejudice,racism,5.325281853204576,racism,5.325281853204576,racism (Score: 5.33) - Directly relates to prejudice.,racism,Directly related to prejudice.,True,True,True,0.0
+president,governor,5.841385007893974,governor,5.841385007893974,"governor - Closest political role to ""president.""",governor,Holds executive leadership similar to a president.,True,True,True,0.0
+problem,issue,6.778382275057644,issue,6.778382275057644,"issue (Score: 6.78) - Closest synonym for ""problem.""",issue,"Synonymous with problem, closely related concept.",True,True,True,0.0
+production,performance,6.269888815422606,performance,6.269888815422606,performance (Score: 6.27) - Closely relates to production outcomes.,industry,Relates closely to production and manufacturing processes.,False,False,True,0.0
+professor,doctor,4.693059366133891,doctor,4.693059366133891,doctor (Score: 4.69) - Both are higher education professionals.,student,Associated with professor as mentor or educator.,False,False,True,0.0
+profit,gain,6.158066756722828,gain,6.158066756722828,gain (Score: 6.16) - Closely related financial term to profit.,gain,"Synonym of profit, representing financial increase.",True,True,True,0.0
+psychology,psychiatry,6.388172731295619,psychiatry,6.388172731295619,psychiatry (Score: 6.39) - Closely related field in mental health.,psychiatry,Closely related field to psychology.,True,True,True,0.0
+reason,issue,4.839621088253011,issue,4.839621088253011,issue (Score: 4.84) - Closely related to reasoning and arguments.,cognition,Relates to reasoning and mental processes.,False,False,True,0.0
+report,warning,4.638349340750329,issue,4.362295413730309,"issue (Score: 4.36) - Closely relates to ""report"" contextually.",news,Closely related to reporting and conveying information.,False,False,False,0.27605392702001996
+rock,music,4.832429433842168,music,4.832429433842168,"music (Score: 4.83) - Directly related to the genre ""rock"".",music,Closely related as a genre category.,True,True,True,0.0
+rooster,rook,5.381920132545939,cock,4.841311430928759,"cock (Score: 4.84)  
+Both terms refer to male chickens.",cock,similar term for a male chicken.,True,False,False,0.5406087016171801
+school,student,6.499399463339049,student,6.499399463339049,student (Score: 6.50) - Directly related to school context.,institution,Represents an organized educational establishment.,False,False,True,0.0
+seafood,lobster,5.279688843552766,lobster,5.279688843552766,lobster (Score: 5.28) - Most specific seafood item.,lobster,A specific type of seafood.,True,True,True,0.0
+seven,series,4.480513256416627,series,4.480513256416627,"series (Score: 4.48) - ""seven"" relates to a number or count.",buck,Seven signifies seven dollars in slang terms.,False,False,True,0.0
+shore,surface,5.491510896306185,surface,5.491510896306185,"surface (Score: 5.49) - Closest association with ""shore.""",water,Shore is the land adjacent to bodies of water.,False,False,True,0.0
+shower,thunderstorm,4.673118465100624,thunderstorm,4.673118465100624,thunderstorm (Score: 4.67) - Both involve precipitation.,water,Related to shower as both involve water.,False,False,True,0.0
+sign,term,4.895239212122965,term,4.895239212122965,"term (Score: 4.90) - Most related meaning to ""sign"".",match,Represents a symbol or corresponding element effectively.,False,False,True,0.0
+situation,issue,5.545271362618678,issue,5.545271362618678,issue (Score: 5.55) - Closely relates to context and circumstances.,issue,Represents current circumstances or situation.,True,True,True,0.0
+skin,surface,5.460696168328529,surface,5.460696168328529,Surface (Score: 5.46) - Most related to outer covering.,surface,Represents outer layer similar to skin.,True,True,True,0.0
+smart,stupid,4.242247209856131,wizard,4.232027229841295,wizard (Score: 4.23) - Both imply intelligence and cleverness.,automobile,Smart is a car brand.,False,False,False,0.010219980014835706
+space,center,5.663663315686902,place,5.508475616595597,place (Score: 5.51) - Space commonly refers to a physical place.,star,Object related to outer space.,False,False,False,0.15518769909130548
+start,center,5.5202645098048775,center,5.5202645098048775,"center (Score: 5.52) - Best matches ""start"" in context.",departure,Synonym for the beginning of a journey.,False,False,True,0.0
+stock,collection,4.583223008020148,collection,4.583223008020148,collection - Best matches the concept of stock.,trading,Involves buying and selling financial stocks.,False,False,True,0.0
+street,avenue,5.052364517176491,avenue,5.052364517176491,avenue (Score: 5.05) - Closely related type of road.,avenue,Synonymous with street as a city road.,True,True,True,0.0
+student,slave,5.060716095691271,girl,5.022131600141977,"girl (Score: 5.02) - Closest demographic association with ""student.""",Yale,A prestigious university where many students study.,False,False,False,0.03858449554929422
+sugar,butter,4.793891510390856,butter,4.793891510390856,butter (Score: 4.79) - Closely related as a cooking ingredient.,cash,"""Sugar"" is often used as a slang term for money.",False,False,True,0.0
+television,theater,4.858679814103608,radio,4.722080929009912,radio (Score: 4.72) - Both are media for broadcasting.,radio,Similar electronic device used for broadcasting media.,True,False,False,0.13659888509369633
+theater,tournament,4.09539038367427,place,3.6935071093882015,place (Score: 3.69) - A theater is a location for performances.,performance,Central function of a theater.,False,False,False,0.40188327428606874
+tiger,jaguar,5.731954420585341,jaguar,5.731954420585341,jaguar (Score: 5.73) - Closest relation as a big cat.,feline,Category encompassing tigers and various large cat species.,False,False,True,0.0
+train,equipment,5.221452192742804,equipment,5.221452192742804,"equipment (Score: 5.22) - ""Train"" relates to machinery or vehicles.",car,Both are modes of transportation.,False,False,True,0.0
+travel,flight,5.838223678611342,flight,5.838223678611342,flight (Score: 5.84) - Directly relates to travel.,voyage,Synonym representing a long journey or trip.,False,False,True,0.0
+type,entity,5.850896720546657,entity,5.850896720546657,"entity (Score: 5.85) - Most relevant synonym for ""type"".",kind,Synonym for category or classification.,False,False,True,0.0
+viewer,landscape,4.790623487068521,eye,4.692291787491646,eye (Score: 4.69) - Closely related to sight and viewing.,eye,Essential organ used for seeing.,True,False,False,0.0983316995768746
+vodka,wine,4.3019136006177,wine,4.3019136006177,wine (Score: 4.30) - Both are alcoholic beverages.,**gin**,Similar alcoholic distilled spirit.,False,False,True,0.0
+volunteer,nurse,4.342934170976155,nurse,4.342934170976155,nurse (Score: 4.34) - Volunteers often assist in healthcare.,group,Represents a collection of individuals working together.,False,False,True,0.0
+wood,woodland,5.538633942410306,woodland,5.538633942410306,"woodland (Score: 5.54) - Closest relation to ""wood.""",forest,A synonym referring to a large area of trees.,False,False,True,0.0
+word,term,4.6979667554270055,term,4.6979667554270055,"term (Score: 4.70) - Closely related synonym for ""word"".",term,Synonym for 'word'.,True,True,True,0.0

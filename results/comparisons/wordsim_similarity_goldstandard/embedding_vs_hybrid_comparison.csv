@@ -1,0 +1,131 @@
+Input_Text,Algorithm_Match_Embedding,Similarity_Score,Algorithm_Match_Hybrid,Reasoning
+Arafat,rabbi,4.001459220989995,hill,Mount Arafat is a significant elevated location.
+Harvard,Yale,6.512131144984314,Yale,Similar prestigious American university as Harvard.
+Japanese,yen,4.710277437838207,yen,Official Japanese currency used in economic transactions.
+Mars,moon,3.9658099327672343,star,Both are celestial objects in the universe.
+Mexico,Brazil,4.613502370183566,nation,Mexico is a sovereign country.
+Wednesday,month,4.9004692683377655,entity,Wednesday represents a day of the week.
+aluminum,metal,5.003240435910829,metal,Aluminum is a type of metal.
+announcement,warning,5.562305411762597,news,"Shares public information, similar to an announcement."
+architecture,landscape,5.507807568641596,infrastructure,Related to building structures and physical systems.
+asylum,isolation,4.875179299303667,madhouse,"A place for mental patients, similar to asylum."
+atmosphere,culture,3.8534635551512935,culture,Represents the prevailing atmosphere or environment.
+attempt,effort,5.598145569695515,effort,Similar meaning to 'attempt'.
+benchmark,index,4.861079075286366,example,Provides a standard against which to compare
+bird,animal,6.164617471677127,crane,A specific type of bird similar to 'bird'.
+bishop,doctor,4.556126916814398,rook,Similar chess piece.
+board,car,5.633510258578873,match,Relates to board games and competitions.
+boy,girl,6.948076817433012,lad,A direct synonym and closely related term.
+bread,food,5.521655647783648,cash,slang for money similar to 'bread'.
+calculation,computation,6.615020544398526,computation,"Similar to calculation, performing mathematical operations."
+car,automobile,5.562367369910138,automobile,Synonymous term for car.
+cell,entity,5.053249787553162,phone,Short form for 'cell phone'.
+cemetery,graveyard,7.504309972755644,graveyard,Synonymous place for burial and remembrance.
+century,year,4.281023071227105,year,Represents a unit of time related to century.
+championship,tournament,4.811420487949961,tournament,Synonymous with competition or championship events.
+chance,confidence,4.47020853253502,match,Relates to probability or possible outcomes.
+chord,music,4.318606487296464,music,A harmonic element in musical compositions.
+coast,shore,4.922564397893425,shore,Area where land meets the sea.
+computer,phone,4.9218023481726725,computation,Essential function related to computer operations.
+consumer,woman,5.4219111469313,payment,Involved in consumer transactions.
+crane,car,4.033967049254149,fauna,"Crane is a type of bird, part of fauna."
+cucumber,cabbage,5.925077499847218,fruit,Cucumber is classified as a type of fruit.
+cup,cock,6.587776055805273,tableware,Cup is a type of tableware.
+delay,block,5.3813594793365525,project,"Common phrase ""project delay""."
+deployment,operation,6.0240455844732175,operation,Closely related to the act of deploying resources.
+development,production,6.098410664836407,project,Closely related to development activities.
+direction,center,4.683207320262479,avenue,A type of street signifying direction.
+dividend,dollar,4.1686282299447655,cash,Financial distribution paid to shareholders.
+doctor,nurse,4.924696579382616,nurse,Nurses work closely with doctors in healthcare settings.
+dollar,currency,5.240526149936713,buck,Informal synonym commonly used for dollar.
+drink,wine,5.61385691979919,Wine,A type of alcoholic beverage similar to drink.
+energy,water,4.977523234291815,sun,Primary natural source of energy.
+experience,performance,5.821227187742179,life,Life encompasses personal experiences and events.
+five,series,4.424901136788982,dollar,Five relates to the dollar currency.
+focus,center,5.585771469853622,center,Central point of attention or activity.
+food,eat,5.681448341483483,fruit,A type of food item.
+football,soccer,5.940895587914135,soccer,Similar sport involving kicking a ball.
+forest,woodland,5.998412412555789,woodland,Similar meaning as a type of forest.
+fuck,girl,4.990348019282078,stupid,Profane term expressing frustration or emphasis.
+furnace,stove,6.503439850962717,stove,Similar heating appliance used for cooking or warmth.
+gem,jewel,5.574438951168657,jewel,Similar meaning as a precious stone.
+glass,wine,4.925955971228695,tableware,Material used for dining and serving purposes.
+governor,secretary,5.104741990381262,professor,Leadership role similar to governor.
+holy,kind,4.235235348035019,oracle,Associated with sacred prophecy and spirituality.
+hospital,hotel,6.555904651411892,nurse,Essential role within hospital setting.
+image,entity,4.76004321033119,object,Visual representation similar to an image.
+investigation,interview,5.043673732580145,science,Related to systematic investigation.
+jaguar,tiger,5.732077099441407,feline,large wild cat species.
+journal,article,5.414950450520396,article,Written piece typically published in a journal.
+journey,voyage,6.5315852795689455,voyage,"Synonym, similar meaning to journey."
+king,queen,5.906015302396908,tiger,Often referred to as the king of the jungle.
+lad,car,5.021330695494248,rooster,"Male bird, similar to 'lad' as a young male."
+life,live,6.9390174756927685,organism,Represents living entities within a biological context.
+line,series,5.701117283846106,phone,"""Line"" often refers to a telephone connection."
+liquid,water,5.715687194363532,water,"Essential liquid, most common association."
+listing,activity,5.191763616798606,series,A sequence or list of related items.
+lobster,lad,4.101737818580568,animal,"Lobster is a marine crustacean, part of the animal kingdom."
+magician,wizard,5.6745218611206205,wizard,"similar to magician, magical practitioner."
+man,woman,7.075252418020826,lad,Similar to a young man.
+marathon,kilometer,4.294670748218427,sprint,Another running event similar to marathon.
+media,information,4.849855936041046,radio,Direct form of mass communication medium.
+midday,noon,5.888237639222885,noon,Represents the middle of the day.
+mile,month,5.494572226713325,kilometer,Both are units of measuring distance.
+ministry,secretary,4.652765721911459,institution,A governmental or organizational body.
+minority,racism,4.055212015736806,group,Represents a smaller subset within population.
+money,cash,6.238794111100257,cash,Synonym for money.
+monk,rabbi,4.428632996795728,rabbi,Similar religious leadership role.
+month,year,6.469808153754344,year,Another unit of time similar to month.
+morality,culture,4.24378239072453,culture,Morality is a key aspect of a culture.
+murder,manslaughter,7.756935476037658,manslaughter,Related unlawful killing similar to murder.
+museum,theater,4.417124376988822,institution,Similar place where collections are kept.
+music,jazz,4.96880882981836,jazz,A genre closely related to music.
+noon,moon,5.000445954300687,moon,"Similar sound to ""noon""."
+observation,object,5.2960921463297055,information,Observation provides essential data for analysis.
+opera,theater,5.4085448539746,theater,Related to performing arts and stage productions.
+peace,confidence,4.589399037672509,atmosphere,Represents the mood or feeling.
+phone,car,5.057454969995259,radio,Closely related communication device.
+physics,science,5.852548733751419,science,Physics is a branch within the broader field of science.
+plane,flight,5.6934622743691135,flight,Related to plane's movement in the air.
+planet,forest,4.948178037060848,star,Similar celestial body in the astronomical context.
+population,production,5.7218054276552985,fauna,Represents groups of animals in a specific region.
+possibility,recommendation,4.539576834931181,match,Represents a potential outcome or possibility.
+practice,performance,5.729327065854416,discipline,Closely related to a field of study.
+precedent,antecedent,8.12289076469023,example,Serves as a previous instance or model.
+prejudice,racism,5.325281853204576,racism,Directly related to prejudice.
+president,governor,5.841385007893974,governor,Holds executive leadership similar to a president.
+problem,issue,6.778382275057644,issue,"Synonymous with problem, closely related concept."
+production,performance,6.269888815422606,industry,Relates closely to production and manufacturing processes.
+professor,doctor,4.693059366133891,student,Associated with professor as mentor or educator.
+profit,gain,6.158066756722828,gain,"Synonym of profit, representing financial increase."
+psychology,psychiatry,6.388172731295619,psychiatry,Closely related field to psychology.
+reason,issue,4.839621088253011,cognition,Relates to reasoning and mental processes.
+report,warning,4.638349340750329,news,Closely related to reporting and conveying information.
+rock,music,4.832429433842168,music,Closely related as a genre category.
+rooster,rook,5.381920132545939,cock,similar term for a male chicken.
+school,student,6.499399463339049,institution,Represents an organized educational establishment.
+seafood,lobster,5.279688843552766,lobster,A specific type of seafood.
+seven,series,4.480513256416627,buck,Seven signifies seven dollars in slang terms.
+shore,surface,5.491510896306185,water,Shore is the land adjacent to bodies of water.
+shower,thunderstorm,4.673118465100624,water,Related to shower as both involve water.
+sign,term,4.895239212122965,match,Represents a symbol or corresponding element effectively.
+situation,issue,5.545271362618678,issue,Represents current circumstances or situation.
+skin,surface,5.460696168328529,surface,Represents outer layer similar to skin.
+smart,stupid,4.242247209856131,automobile,Smart is a car brand.
+space,center,5.663663315686902,star,Object related to outer space.
+start,center,5.5202645098048775,departure,Synonym for the beginning of a journey.
+stock,collection,4.583223008020148,trading,Involves buying and selling financial stocks.
+street,avenue,5.052364517176491,avenue,Synonymous with street as a city road.
+student,slave,5.060716095691271,Yale,A prestigious university where many students study.
+sugar,butter,4.793891510390856,cash,"""Sugar"" is often used as a slang term for money."
+television,theater,4.858679814103608,radio,Similar electronic device used for broadcasting media.
+theater,tournament,4.09539038367427,performance,Central function of a theater.
+tiger,jaguar,5.731954420585341,feline,Category encompassing tigers and various large cat species.
+train,equipment,5.221452192742804,car,Both are modes of transportation.
+travel,flight,5.838223678611342,voyage,Synonym representing a long journey or trip.
+type,entity,5.850896720546657,kind,Synonym for category or classification.
+viewer,landscape,4.790623487068521,eye,Essential organ used for seeing.
+vodka,wine,4.3019136006177,**gin**,Similar alcoholic distilled spirit.
+volunteer,nurse,4.342934170976155,group,Represents a collection of individuals working together.
+wood,woodland,5.538633942410306,forest,A synonym referring to a large area of trees.
+word,term,4.6979667554270055,term,Synonym for 'word'.
