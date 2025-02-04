@@ -1,132 +1,131 @@
-Input_Text,Algorithm_Match,Similarity_Score,Reasoning
-Arafat,rabbi,4.001459220989995,"rabbi (Score: 4.00) - Closest phonetic similarity to ""Arafat."""
-Harvard,Yale,6.5121311449843144,Yale (Score: 6.51) - Both are prestigious universities.
-Japanese,yen,4.710277437838207,yen (Score: 4.71) - Directly relates to Japanese currency.
-Mars,moon,3.9658099327672347,moon (Score: 3.97) - Closest association with Mars.
-Mexico,nation,3.405461848518097,nation (Score: 3.41) - Mexico is a nation.
-Wednesday,month,4.9004692683377655,"month (Score: 4.90) - ""Wednesday"" relates to days of the week."
-aluminum,metal,5.003240435910829,metal (Score: 5.00) - Aluminum is a type of metal.
-announcement,news,4.549612131219901,news (Score: 4.55) - Closely relates to public announcements.
-architecture,landscape,5.507807568641596,landscape (Score: 5.51) - Closely related to architectural design.
-asylum,isolation,4.875179299303667,isolation (Score: 4.88) – Best relates to asylum's meaning.
-atmosphere,culture,3.8534635551512935,culture (Score: 3.85) - Closest relation to social atmosphere.
-attempt,effort,5.598145569695515,"effort (Score: 5.60) - Closest synonym to ""attempt."""
-benchmark,index,4.861079075286366,index (Score: 4.86) - Closely relates to measuring and evaluating performance.
-bird,animal,6.164617471677127,animal (Score: 6.16) - Broad category for birds.
-bishop,queen,4.486377952865589,queen (Score: 4.49) - Both are chess pieces.
-board,match,4.660855070813313,match (Score: 4.66) - Closest in meaning related to games.
-boy,girl,6.948076817433012,"girl (Score: 6.95) - Closest opposite gender term related to ""boy."""
-bread,food,5.521655647783648,food (Score: 5.52) - Bread is a staple food item.
-calculation,computation,6.615020544398526,"computation (Score: 6.62) - Closest synonym to ""calculation."""
-car,automobile,5.562367369910138,"automobile (Score: 5.56) - Direct synonym for ""car."""
-cell,entity,5.053249787553162,entity (Score: 5.05) - 'Cell' relates to biological entities.
-cemetery,graveyard,7.504309972755644,graveyard (Score: 7.50) - Closest meaning related to burial grounds.
-century,year,4.281023071227105,year (Score: 4.28) - Century directly relates to years.
-championship,tournament,4.811420487949961,tournament (Score: 4.81) - Closely related to championship events.
-chance,confidence,4.47020853253502,confidence - Both relate to opportunities and risk assessment.
-chord,music,4.318606487296464,music (Score: 4.32) - Chord is a fundamental music concept.
-coast,shore,4.922564397893425,"shore (Score: 4.92) - Closest synonym to ""coast."""
-computer,computation,4.355392461891302,computation (Score: 4.36) - Closely related to computer functions.
-consumer,student,5.062865387396272,student (Score: 5.06) - Both are terms for individuals.
-crane,car,4.033967049254149,"car (Score: 4.03) - Most phonetic similarity with ""crane."""
-cucumber,cabbage,5.925077499847218,cabbage (Score: 5.93) - Closely related vegetable category.
-cup,cock,6.587776055805273,"cock (Score: 6.59) - Closest phonetic similarity to ""cup""."
-delay,block,5.3813594793365525,"block (Score: 5.38) - Closest relation to ""delay"" contextually."
-deployment,operation,6.0240455844732175,operation (Score: 6.02) - Closely linked to deployment activities.
-development,production,6.098410664836407,production (Score: 6.10) - Closely related to development processes.
-direction,center,4.683207320262479,center (Score: 4.68) - Most related to direction contextually.
-dividend,payment,3.996704010229377,payment (Score: 4.00) - Dividends are payments to shareholders.
-doctor,nurse,4.924696579382616,nurse (Score: 4.92) - Closely related healthcare profession.
-dollar,currency,5.240526149936713,currency (Score: 5.24) - Most relevant definition of dollar.
-drink,wine,5.61385691979919,"wine (Score: 5.61) - Most closely related to ""drink."""
-energy,water,4.977523234291815,water (Score: 4.98) - Closely related to energy sources.
-experience,performance,5.821227187742179,performance (Score: 5.82) - Closely related to experience in context.
-five,series,4.424901136788982,"series (Score: 4.42) - ""Five"" commonly refers to a series quantity."
-focus,center,5.585771469853622,"center (Score: 5.59) - Most directly related to ""focus""."
-food,eat,5.681448341483483,eat (Score: 5.68) - Directly related to food consumption.
-football,soccer,5.940895587914135,soccer (Score: 5.94) - Direct synonym for football.
-forest,woodland,5.998412412555789,woodland (Score: 6.00) - Closest synonym related to forest.
-fuck,sex,4.873252570820334,sex (Score: 4.87) - Closest association with the input term.
-furnace,stove,6.503439850962717,stove (Score: 6.50) - Both are heat-generating appliances.
-gem,jewel,5.574438951168657,"jewel (Score: 5.57) - Closely related meaning to ""gem."""
-glass,wine,4.925955971228695,wine (Score: 4.93) - Most related to glass usage.
-governor,secretary,5.104741990381262,secretary (Score: 5.10) - Closest in leadership role context.
-holy,kind,4.235235348035019,"kind (Score: 4.24) - ""Holy"" relates to kindness and goodness."
-hospital,doctor,5.351338143939386,doctor (Score: 5.35) - Closely related to hospital services.
-image,entity,4.76004321033119,entity (Score: 4.76) - Best matches the concept of 'image' directly.
-investigation,interview,5.043673732580145,interview (Score: 5.04) - Closely related to gathering information in investigations.
-jaguar,tiger,5.7320770994414065,tiger (Score: 5.73) - Both are big cats.
-journal,article,5.414950450520396,article (Score: 5.41) - Journals publish articles on various topics.
-journey,voyage,6.5315852795689455,voyage (Score: 6.53) - Closely related to travel and exploration.
-king,queen,5.9060153023969075,"queen (Score: 5.91) - Most closely related to ""king."""
-lad,car,5.021330695494248,car (Score: 5.02) - Closest phonetic match conceptually.
-life,live,6.9390174756927685,live (Score: 6.94) - Closely related to the concept of life.
-line,series,5.701117283846106,"series (Score: 5.70) - Closest conceptual relation to ""line""."
-liquid,water,5.715687194363532,water (Score: 5.72) - Most closely associated with 'liquid'.
-listing,activity,5.191763616798606,activity (Score: 5.19) - Closest relation to 'listing' concept.
-lobster,butter,4.064300944164653,butter (Score: 4.06) - Common culinary pairing with lobster.
-magician,wizard,5.6745218611206205,wizard (Score: 5.67) - Closely related to magic and illusion.
-man,woman,7.075252418020826,"woman (Score: 7.08) - Closest gender counterpart to ""man""."
-marathon,kilometer,4.294670748218427,kilometer (Score: 4.29) - Directly related to marathon distance.
-media,information,4.849855936041046,"information (Score: 4.85) - Most closely relates to ""media"" overall."
-midday,noon,5.888237639222885,"noon (Score: 5.89) - Most closely related to ""midday""."
-mile,kilometer,5.097938081737023,kilometer (Score: 5.10) - Closely related unit of distance.
-ministry,secretary,4.652765721911459,secretary (Score: 4.65) - Most directly related to ministry.
-minority,racism,4.055212015736806,racism (Score: 4.06) - Closely related to minority contexts.
-money,cash,6.238794111100257,cash (Score: 6.24) - It directly represents money.
-monk,rabbi,4.428632996795728,rabbi (Score: 4.43) - Both are religious leaders.
-month,year,6.469808153754344,year (Score: 6.47) - Both are time measurement units.
-morality,culture,4.24378239072453,culture (Score: 4.24) - Morality is deeply tied to cultural values.
-murder,manslaughter,7.756935476037658,manslaughter (Score: 7.76) - Closest legal term related to murder.
-museum,institution,3.864924591859764,institution (Score: 3.86) - A museum is an educational institution.
-music,jazz,4.96880882981836,jazz - Closest genre directly related to music.
-noon,moon,5.000445954300687,moon (Score: 5.00) - Closest phonetic and letter match.
-observation,object,5.2960921463297055,"object (Score: 5.30) - Closest semantic match to ""observation""."
-opera,theater,5.4085448539746,theater (Score: 5.41) - Closely related to opera performance.
-peace,confidence,4.589399037672509,confidence (Score: 4.59) - Reflects inner peace and assurance.
-phone,radio,4.5602275073168705,radio (Score: 4.56) - Both are communication devices.
-physics,science,5.852548733751419,science (Score: 5.85) - Physics is a branch of science.
-plane,flight,5.6934622743691135,"flight (Score: 5.69) - Closest association with ""plane."""
-planet,moon,4.766486393357071,moon (Score: 4.77) - Closest celestial body relation.
-population,nation,5.244618786149584,nation (Score: 5.24) - Closely related to population context.
-possibility,recommendation,4.539576834931181,recommendation (Score: 4.54) - Most related to possibility.
-practice,activity,5.706927051870525,activity (Score: 5.71) - Closely relates to practice and engagement.
-precedent,antecedent,8.12289076469023,antecedent (Score: 8.12) - Closely related in meaning and usage context.
-prejudice,racism,5.325281853204576,racism (Score: 5.33) - Directly relates to prejudice.
-president,governor,5.841385007893974,"governor - Closest political role to ""president."""
-problem,issue,6.778382275057644,"issue (Score: 6.78) - Closest synonym for ""problem."""
-production,performance,6.269888815422606,performance (Score: 6.27) - Closely relates to production outcomes.
-professor,doctor,4.693059366133891,doctor (Score: 4.69) - Both are higher education professionals.
-profit,gain,6.158066756722828,gain (Score: 6.16) - Closely related financial term to profit.
-psychology,psychiatry,6.388172731295619,psychiatry (Score: 6.39) - Closely related field in mental health.
-reason,issue,4.839621088253011,issue (Score: 4.84) - Closely related to reasoning and arguments.
-report,issue,4.362295413730309,"issue (Score: 4.36) - Closely relates to ""report"" contextually."
-rock,music,4.832429433842168,"music (Score: 4.83) - Directly related to the genre ""rock""."
-rooster,cock,4.841311430928759,"cock (Score: 4.84)  
-Both terms refer to male chickens."
-school,student,6.499399463339049,student (Score: 6.50) - Directly related to school context.
-seafood,lobster,5.279688843552766,lobster (Score: 5.28) - Most specific seafood item.
-seven,series,4.480513256416627,"series (Score: 4.48) - ""seven"" relates to a number or count."
-shore,surface,5.491510896306185,"surface (Score: 5.49) - Closest association with ""shore."""
-shower,thunderstorm,4.673118465100624,thunderstorm (Score: 4.67) - Both involve precipitation.
-sign,term,4.895239212122965,"term (Score: 4.90) - Most related meaning to ""sign""."
-situation,issue,5.545271362618678,issue (Score: 5.55) - Closely relates to context and circumstances.
-skin,surface,5.460696168328529,Surface (Score: 5.46) - Most related to outer covering.
-smart,wizard,4.232027229841295,wizard (Score: 4.23) - Both imply intelligence and cleverness.
-space,place,5.508475616595597,place (Score: 5.51) - Space commonly refers to a physical place.
-start,center,5.5202645098048775,"center (Score: 5.52) - Best matches ""start"" in context."
-stock,collection,4.583223008020148,collection - Best matches the concept of stock.
-street,avenue,5.052364517176491,avenue (Score: 5.05) - Closely related type of road.
-student,girl,5.022131600141977,"girl (Score: 5.02) - Closest demographic association with ""student."""
-sugar,butter,4.793891510390856,butter (Score: 4.79) - Closely related as a cooking ingredient.
-television,radio,4.722080929009912,radio (Score: 4.72) - Both are media for broadcasting.
-theater,place,3.6935071093882015,place (Score: 3.69) - A theater is a location for performances.
-tiger,jaguar,5.731954420585341,jaguar (Score: 5.73) - Closest relation as a big cat.
-train,equipment,5.221452192742804,"equipment (Score: 5.22) - ""Train"" relates to machinery or vehicles."
-travel,flight,5.838223678611342,flight (Score: 5.84) - Directly relates to travel.
-type,entity,5.850896720546657,"entity (Score: 5.85) - Most relevant synonym for ""type""."
-viewer,eye,4.692291787491646,eye (Score: 4.69) - Closely related to sight and viewing.
-vodka,wine,4.3019136006177,wine (Score: 4.30) - Both are alcoholic beverages.
-volunteer,nurse,4.342934170976155,nurse (Score: 4.34) - Volunteers often assist in healthcare.
-wood,woodland,5.538633942410306,"woodland (Score: 5.54) - Closest relation to ""wood."""
-word,term,4.6979667554270055,"term (Score: 4.70) - Closely related synonym for ""word""."
+Input_Text,Algorithm_Match,Similarity_Score
+Arafat,artifact,2.805183269554697
+Harvard,Yale,6.5121311449843144
+Japanese,currency,3.5082051421631077
+Mars,month,2.805684000009729
+Mexico,nation,3.405461848518097
+Wednesday,month,4.9004692683377655
+aluminum,metal,5.003240435910829
+announcement,news,4.549612131219901
+architecture,No options were provided to select a match from.,
+asylum,institution,3.470269200180496
+atmosphere,It seems that the list of options was not provided. Could you please supply the options to choose from?,
+attempt,effort,5.598145569695515
+benchmark,performance,4.262272473277994
+bird,animal,6.164617471677127
+bishop,rabbi,4.269372572744424
+board,block,4.461326344200097
+boy,lad,4.831631725165462
+bread,food,5.521655647783648
+calculation,computation,6.615020544398526
+car,It appears that no options were provided. Could you please share the available options for selection?,
+cell,phone,4.668575628789121
+cemetery,graveyard,7.504309972755644
+century,"It looks like you mentioned ""century"" and referred to some options, but I didn't receive the list of options to choose from. Could you please provide the available options so I can help select the most appropriate match?",
+championship,tournament,4.811420487949961
+chance,1. confidence,
+chord,music,4.318606487296464
+coast,shore,4.922564397893425
+computer,computation,4.355392461891302
+consumer,entity,4.465656528295191
+crane,Unable to select a match as no options were provided.,
+cucumber,gherkin,
+cup,fruit,4.8741034156879355
+delay,flight,3.629604003911191
+deployment,production,4.984603301431702
+development,Please provide the list of options to select from.,
+direction,approach,4.032413139157164
+dividend,payment,3.996704010229377
+doctor,No matching options provided. Please supply the options to select from.,
+dollar,"It looks like the list of options was not provided. Could you please share the options for me to select the most appropriate match for ""dollar""?",
+drink,water,4.735069271608257
+energy,No options were provided to select a match from.,
+experience,history,4.8863919032310905
+five,series,4.424901136788982
+focus,center,5.585771469853622
+food,"I'm sorry, but I don't see any options provided. Could you please supply the list of options to choose from?",
+football,soccer,5.940895587914135
+forest,No options were provided to select from.,
+fuck,sex,4.873252570820334
+furnace,stove,6.503439850962717
+gem,jewel,5.574438951168657
+glass,tableware,4.046572387446251
+governor,"I'm sorry, but I didn't receive any options to choose from. Could you please provide the list of options?",
+holy,rabbi,3.4205247265609
+hospital,institution,4.919999395461723
+image,object,4.23961487322728
+investigation,operation,4.29068710597794
+jaguar,Big cat,
+journal,serial,4.2582141125377575
+journey,voyage,6.5315852795689455
+king,queen,5.9060153023969075
+lad,"I'm sorry, but I need the list of options to help you select the most appropriate match for ""lad."" Could you please provide the available options?",
+life,live,6.9390174756927685
+line,phone,3.9304548542385986
+liquid,substance,4.191863173060656
+listing,index,4.269288298477196
+lobster,It seems you haven't provided the list of options. Please provide the options so I can help you select the most appropriate match.,
+magician,"It seems that no options were provided. Could you please share the available options so I can help select the most appropriate match for ""magician""?",
+man,woman,7.075252418020826
+marathon,sprint,3.971624005886303
+media,industry,3.5599065007706843
+midday,noon,5.888237639222885
+mile,kilometer,5.097938081737023
+ministry,institution,3.9804668129948464
+minority,group,3.539029057787441
+money,currency,5.408130988855342
+monk,rabbi,4.428632996795728
+month,"Please provide the list of options to choose from, and I'll help you select the most appropriate match for ""month.""",
+morality,culture,4.24378239072453
+murder,manslaughter,7.756935476037658
+museum,institution,3.864924591859764
+music,No options were provided to select from.,
+noon,midday,
+observation,collection,4.8973804795050935
+opera,performance,3.694835653162305
+peace,I need the list of options to select the best match. Please provide the available options.,
+phone,"I'm sorry, but I need the list of options to select the most appropriate match for ""phone."" Please provide the available options.",
+physics,science,5.852548733751419
+plane,flight,5.6934622743691135
+planet,star,4.6709393045139915
+population,group,5.181419881501855
+possibility,confidence,4.122091297943646
+practice,activity,5.706927051870525
+precedent,antecedent,8.12289076469023
+prejudice,racism,5.325281853204576
+president,governor,5.841385007893974
+problem,issue,6.778382275057644
+production,It appears that no options were provided. Could you please share the list of options to select from?,
+professor,"I'm sorry, but I need the list of options to help you select the most appropriate match for ""professor."" Please provide the available options.",
+profit,gain,6.158066756722828
+psychology,cognition,4.607183401450124
+reason,antecedent,3.705908324438172
+report,article,3.8081425739021246
+rock,music,4.832429433842168
+rooster,"It looks like you haven't provided the list of options to choose from. Could you please share the available options so I can help you select the most appropriate match for ""rooster""?",
+school,institution,4.849382655816299
+seafood,food,5.032162696612441
+seven,serial,3.918050449369307
+shore,"It looks like the list of options is missing. Could you please provide the available options for ""shore"" so I can help select the most appropriate match?",
+shower,thunderstorm,4.673118465100624
+sign,warning,4.044372594970667
+situation,atmosphere,3.7223241427113987
+skin,surface,5.460696168328529
+smart,cognition,3.007032664805507
+space,place,5.508475616595597
+start,project,4.842745270080153
+stock,trading,4.236807532308507
+street,avenue,5.052364517176491
+student,"It appears that no options were provided. Please supply the list of options so I can help select the most appropriate match for ""student.""",
+sugar,substance,4.371285569569475
+television,radio,4.722080929009912
+theater,stage,
+tiger,"Sure, could you please provide the list of options to select the most appropriate match for ""tiger""?",
+train,car,4.893631857046713
+travel,voyage,5.769999383664096
+type,kind,5.194595228685525
+viewer,eye,4.692291787491646
+vodka,potato,3.3922363473991157
+volunteer,effort,3.869629229450726
+wood,forest,5.238981657443106
+word,term,4.6979667554270055

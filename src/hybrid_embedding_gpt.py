@@ -62,44 +62,54 @@ input_embeddings["Embedding"] = input_embeddings["Embedding"].apply(np.array)
 matching_embeddings["Embedding"] = matching_embeddings["Embedding"].apply(np.array)
 all_matching_embeddings = np.vstack(matching_embeddings["Embedding"].tolist())
 
-# Compute cosine similarity and find top 5 matches
-def find_top_matches(input_embedding, all_embeddings, matched_texts, input_text, top_n=5):
+# Compute cosine similarity and find top matches based on confidence threshold
+def find_top_matches(input_embedding, all_embeddings, matched_texts, input_text, confidence_threshold=0.67):
     similarities = cosine_similarity([input_embedding], all_embeddings)[0] * 10
     sorted_indices = np.argsort(similarities)[::-1]
-    top_matches = [(matched_texts[idx], similarities[idx]) for idx in sorted_indices if matched_texts[idx] != input_text][:top_n]
+    top_matches = [(matched_texts[idx], similarities[idx]) for idx in sorted_indices if matched_texts[idx] != input_text and similarities[idx] >= similarities[sorted_indices[0]] * confidence_threshold]
     return top_matches
 
-# Use GPT to select the best match with reasoning
+# Initialize token usage counters
+total_input_tokens = 0
+total_output_tokens = 0
+
+# Use GPT to select the best match
 def refine_match_with_gpt(input_text, top_matches):
-    candidates = "\n".join([f"{i+1}. {match[0]} (Score: {match[1]:.2f})" for i, match in enumerate(top_matches)])
-    prompt = f"""
-    Given the input text: "{input_text}", select the most appropriate match from the following options:
-    {candidates}
-    
-    Respond with the best match number and a brief reasoning (8-10 words).
-    """
+    global total_input_tokens, total_output_tokens
+
+    candidates = "\n".join([f"{i+1}. {match[0]}" for i, match in enumerate(top_matches)])
+    prompt = f"Given the input text: {input_text}, select the most appropriate match from the following options:\n{candidates}\nEnsure that the selected match is not identical to the input.\n Format the response as: {{Best found match}}"
+
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="o1-mini",
         messages=[{"role": "user", "content": prompt}]
     )
-    output = response.choices[0].message.content.strip()
-    best_match_idx = output.split(".")[0].strip()
-    reasoning = output[len(best_match_idx) + 2:].strip()
-    best_match_idx = int(best_match_idx) - 1
-    return top_matches[best_match_idx][0], top_matches[best_match_idx][1], reasoning
+
+    if input_text == "doctor":
+        print("input is doctor")
+
+    # Track token usage
+    total_input_tokens += response.usage.prompt_tokens
+    total_output_tokens += response.usage.completion_tokens
+
+    output = response.choices[0].message.content.strip('{}')
+    best_match_text = output
+    best_match_score = next((score for match, score in top_matches if match == best_match_text), None)
+    
+    return input_text, best_match_text, best_match_score
 
 results = []
 for _, row in input_embeddings.iterrows():
     top_matches = find_top_matches(row["Embedding"], all_matching_embeddings, matching_embeddings["Matched_Text"].tolist(), row["Input_Text"])
-    best_match_text, best_match_score, reasoning = refine_match_with_gpt(row["Input_Text"], top_matches)
-    results.append([row["Input_Text"], best_match_text, best_match_score, reasoning])
+    input_text, best_match_text, best_match_score = refine_match_with_gpt(row["Input_Text"], top_matches)
+    results.append([input_text, best_match_text, best_match_score])
 
 debug_print("Processed all entries.")
 
 # Save results
 output_file = os.path.join(RESULTS_DIR, "hybrid_embedding_gpt_results.csv")
-results_df = pd.DataFrame(results, columns=["Input_Text", "Algorithm_Match", "Similarity_Score", "Reasoning"])
+results_df = pd.DataFrame(results, columns=["Input_Text", "Algorithm_Match", "Similarity_Score"])
 results_df.to_csv(output_file, index=False)
 debug_print(f"Results saved to {output_file}")
 
-print("Hybrid embedding + GPT similarity computation complete!")
+print(f"Hybrid embedding + GPT similarity computation complete!\nTotal Input Tokens: {total_input_tokens}\nTotal Output Tokens: {total_output_tokens}")
